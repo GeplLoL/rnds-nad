@@ -15,6 +15,24 @@
 <div id="random-syna"></div>
 <label for="kontroll">Kirjuta vene keeles</label>
 <input type="text" id="kontroll" oninput="kontroll()">
+<input type="button" value="Juhuslik sõna (ET -> RU)" onclick="randomSynaET()">
+<input type="button" value="Juhuslik sõna (RU -> ET)" onclick="randomSynaRU()">
+<table>
+    <thead>
+    <tr>
+        <th>Juhuslik sõna</th>
+        <th>Kirjuta tõlge</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td id="random-syna"></td>
+        <td>
+            <input type="text" id="kontroll" oninput="kontroll()">
+        </td>
+    </tr>
+    </tbody>
+</table>
 <div id="vastus"></div>
 </body>
 </html>
